@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <title>Image Gallery</title>
+    </head>
+    <body>
+        <!-- Global Container -->
+        <div class="flex flex-col min-h-screen justify-center items-center bg-cyan-50">
+            <!-- Main Container -->
+            <main class="bg-white p-6 m-3 space-y-3 shadow-2xl rounded-3xl">
+                <!-- Menu Container -->
+                <div class="flex flex-col justify-center items-center space-y-3">
+                    <!--Item 1-->
+                    <div class="group">
+                        <a href="#">Mountains</a>
+                        <div class="mx-2 mt-2 duration-500 opacity-0 border-b-2 border-black group-hover:opacity-100"></div>
+                    </div>
+                    <!--Item 2-->
+                    <div class="group">
+                        <a href="#">Temples</a>
+                        <div class="mx-2 mt-2 duration-500 opacity-0 border-b-2 border-black group-hover:opacity-100"></div>
+                    </div>
+                    <!--Item 3-->
+                    <div class="group">
+                        <a href="#">Cities</a>
+                        <div class="mx-2 mt-2 duration-500 opacity-0 border-b-2 border-black group-hover:opacity-100"></div>
+                    </div>
+                    <!--Item 4-->
+                    <div class="group">
+                        <a href="#">Rivers</a>
+                        <div class="mx-1 mt-2 duration-500 opacity-0 border-b-2 border-black group-hover:opacity-100"></div>
+                    </div>
+                </div>
+                <!-- Search Container -->
+                <div class="flex flex-col justify-between space-y-5">
+                    <!-- Search Wrapper -->
+                    <div class="flex justify-between border-3 border-b">
+                        <input type="text" name="q" class="ml-6 focus:outline-none" placeholder="Search" />
+                        <button>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="10" cy="10" r="7" />
+                                <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <button class="text-lg bg-black text-white px-4 py-3 border border-black rounded-md hover:bg-white hover:text-black hover:shadow-2xl">Upload</button>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
