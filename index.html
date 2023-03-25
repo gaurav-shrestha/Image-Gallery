@@ -11,7 +11,7 @@
         <!-- Global Container -->
         <div class="flex flex-col min-h-screen justify-center items-center bg-cyan-50">
             <!-- Main Container -->
-            <main class="bg-white p-6 m-3 space-y-3 shadow-2xl rounded-3xl">
+            <main class="bg-white p-6 m-3 space-y-10 shadow-2xl rounded-3xl">
                 <!-- Menu Container -->
                 <div class="flex flex-col justify-center items-center space-y-3">
                     <!--Item 1-->
@@ -35,10 +35,11 @@
                         <div class="mx-1 mt-2 duration-500 opacity-0 border-b-2 border-black group-hover:opacity-100"></div>
                     </div>
                 </div>
+
                 <!-- Search Container -->
                 <div class="flex flex-col justify-between space-y-5">
                     <!-- Search Wrapper -->
-                    <div class="flex justify-between border-3 border-b">
+                    <div class="flex justify-between border-b-2">
                         <input type="text" name="q" class="ml-6 focus:outline-none" placeholder="Search" />
                         <button>
                             <svg
@@ -57,7 +58,228 @@
                             </svg>
                         </button>
                     </div>
-                    <button class="text-lg bg-black text-white px-4 py-3 border border-black rounded-md hover:bg-white hover:text-black hover:shadow-2xl">Upload</button>
+                    <button class="text-lg bg-black text-white px-4 py-3 border border-black rounded-md duration-200 hover:bg-white hover:text-black hover:shadow-2xl">Upload</button>
+                </div>
+
+                <!-- Images Container -->
+                <div class="grid gap-4">
+                    <!-- Image Wrapper 1 -->
+                    <div class="relative group">
+                        <img src="images/1.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">Mountain</p>
+                                    <p class="text-white text-xs">245 likes - 35 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 2 -->
+                    <div class="relative group">
+                        <img src="images/2.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">Temple</p>
+                                    <p class="text-white text-xs">335 likes - 15 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 3 -->
+                    <div class="relative group">
+                        <img src="images/3.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">Temple</p>
+                                    <p class="text-white text-xs">545 likes - 45 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 4 -->
+                    <div class="relative group">
+                        <img src="images/4.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">City</p>
+                                    <p class="text-white text-xs">557 likes - 30 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 5 -->
+                    <div class="relative group">
+                        <img src="images/5.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">City</p>
+                                    <p class="text-white text-xs">445 likes - 55 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 6 -->
+                    <div class="relative group">
+                        <img src="images/6.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">Temple</p>
+                                    <p class="text-white text-xs">441 likes - 22 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Wrapper 7 -->
+                    <div class="relative group">
+                        <img src="images/7.jpg" alt="1" />
+                        <div class="absolute bottom-0 w-full px-3 py-2 bg-black duration-500 opacity-0 group-hover:opacity-100 bg-opacity-50">
+                            <div class="flex justify-between">
+                                <!-- Content -->
+                                <div>
+                                    <p class="text-white text-base">Temple</p>
+                                    <p class="text-white text-xs">220 likes - 45 shares</p>
+                                </div>
+                                <!-- Image -->
+                                <div class="flex items-center">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-bookmark hover:cursor-pointer"
+                                        width="28"
+                                        height="28"
+                                        viewBox="0 0 24 24"
+                                        stroke-width="1.2"
+                                        stroke="#ffffff"
+                                        fill="none"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    >
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
